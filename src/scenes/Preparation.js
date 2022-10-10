@@ -1,0 +1,1 @@
+class Preparation extends Scene {}
