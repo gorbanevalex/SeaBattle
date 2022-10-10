@@ -1,9 +1,12 @@
-const mouse = new Mouse(document.body);
+const app = new Application();
+console.log(app);
 
-requestAnimationFrame(tick);
+// const mouse = new Mouse(document.body);
 
-function tick(){
-	requestAnimationFrame(tick);
+// requestAnimationFrame(tick);
 
-	console.log(mouse);
-}
+// function tick(){
+// 	requestAnimationFrame(tick);
+
+// 	console.log(mouse);
+// }
