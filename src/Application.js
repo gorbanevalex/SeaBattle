@@ -27,6 +27,11 @@ class Application {
 
 	tick(){
 		requestAnimationFrame(() => this.tick());
+
+		if(this.activeScene){
+			this.activeScene.update();
+		}
+
 		this.mouse.tick();
 	}
 
